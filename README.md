@@ -1,10 +1,16 @@
 # Municipal Financial Management System (MFMS)
 
-## PAP521S - Programming in Practice - Project A
+GROUP MEMBERS 
+Kambonde Jeremia 225149540
+Shilongo Lazarus 225020238
+Ngolo Elias 225044080
+Lucas Mungunga 222114169
+FIM Nghiikumbu 223012246
+Tangeni Abel 225174448
 
-This is the integrated C99 version of the Municipal Financial Management System.
+This is the integrated C99 version of the Municipal Financial Management System
 
-## Files
+## System features 
 
 - `main.c` - main system menu and program entry point
 - `employees.c/.h` - employee management and employee report
@@ -15,7 +21,7 @@ This is the integrated C99 version of the Municipal Financial Management System.
 - `types.h` - shared data types
 - `utils.c/.h` - safe input functions used by the modules
 
-## Compile with GCC
+## Compile with GCC Instructions
 
 ```bash
 gcc -std=c99 -Wall -Wextra -pedantic main.c employees.c budget.c suppliers.c assets.c reports.c utils.c -o MFMS
@@ -32,7 +38,6 @@ gcc -std=c99 -Wall -Wextra -pedantic main.c employees.c budget.c suppliers.c ass
 ```bash
 ./MFMS
 ```
-
 ## Main system flow
 
 `main()` -> `mainMenu()` -> selected module menu -> module functions -> return to main menu.
@@ -51,3 +56,14 @@ The Reports module calls the public report functions from the other modules.
 ## Important
 
 The program stores records in memory while it is running. Closing the program clears the records because no file/database storage was required for Project A.
+
+
+Individual Responsibilities:
+
+Kambonde Jeremia :Responsible for system Intergration 
+Shilongo Lazarus :Responsible for Employee management module
+Ngolo Elias : Responsible for supplier management module
+Lucas Mungunga : Responsible for Asset management module
+FIM Nghiikumbu : Responsible for repport management module
+Tangeni Abel : Responsible for Budget Management module
+
