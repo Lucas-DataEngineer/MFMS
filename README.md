@@ -7,6 +7,7 @@ Ngolo Elias 225044080
 Lucas Mungunga 222114169
 FIM Nghiikumbu 223012246
 Tangeni Abel 225174448
+SG Endjala 225070340
 
 This is the integrated C99 version of the Municipal Financial Management System
 
@@ -60,10 +61,10 @@ The program stores records in memory while it is running. Closing the program cl
 
 Individual Responsibilities:
 
-Kambonde Jeremia :Responsible for system Intergration 
+Kambonde Jeremia :Responsible for system Intergration, functions and validations 
 Shilongo Lazarus :Responsible for Employee management module
 Ngolo Elias : Responsible for supplier management module
 Lucas Mungunga : Responsible for Asset management module
 FIM Nghiikumbu : Responsible for repport management module
 Tangeni Abel : Responsible for Budget Management module
-
+SG Endjala : Responsible for documentation, testing  and Git coordination 
